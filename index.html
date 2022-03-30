@@ -55,54 +55,61 @@
         "altText": "คุณได้รับเครดิตฟรี รีบเลยก่อนหมดเขต",
     "type": "flex",
     "contents": {
-      "type": "bubble",
-  "size": "giga",
-  "direction": "ltr",
-  "hero": {
-    "type": "image",
-    "url": "https://www.img.in.th/images/8a78c1f8c23762268ea1413ee0ae9a56.jpg",
-    "size": "full",
-    "aspectRatio": "1:1",
-    "aspectMode": "fit"
-  },
+        "type": "bubble",
   "body": {
     "type": "box",
     "layout": "vertical",
     "backgroundColor": "#FFFFFFFF",
-    "borderColor": "#FFFFFFFF",
     "contents": [
       {
         "type": "text",
-        "text": "กิจกรรมรับเครดิตฟรี ",
-        "weight": "bold",
-        "size": "xl",
-        "color": "#9F00FFFF",
+        "text": "คุณสนใจรับเครดิตฟรี 50 ใช่ไหมคะ",
+        "size": "md",
+        "color": "#9A00CAFF",
         "align": "center",
         "contents": []
       },
       {
-        "type": "text",
-        "text": "เพียงร่วมกิจกรรมกับทางเรา รับทันทีเครดิตฟรี 50.- ไม่ต้องฝากก่อน",
-        "color": "#52514DFF",
-        "align": "center",
-        "contents": []
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "รับเครดิตฟรี",
+          "text": "สนใจ"
+        },
+        "color": "#9A00CAFF",
+        "style": "primary",
+        "gravity": "center",
+        "offsetTop": "sm"
       }
     ]
   },
   "footer": {
     "type": "box",
     "layout": "horizontal",
+    "offsetBottom": "sm",
     "backgroundColor": "#FFFFFFFF",
     "contents": [
       {
         "type": "button",
         "action": {
-          "type": "uri",
-          "label": "รับเครดิตฟรี",
-          "uri": "https://lin.ee/qWr8AhW"
+          "type": "message",
+          "label": "ไม่สนใจ",
+          "text": "ไม่สนใจ"
         },
-        "color": "#9F00FFFF",
-        "style": "primary"
+        "color": "#9A00CAFF",
+        "style": "primary",
+        "offsetEnd": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "ฝากเงิน",
+          "text": "ฝากเงิน"
+        },
+        "color": "#9A00CAFF",
+        "style": "primary",
+        "offsetStart": "xs"
       }
     ]
   }
