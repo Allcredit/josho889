@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" style="color-scheme: light; --liff-base-background-color:#FFFFFF; --liff-base-text-color:#000000; --liff-base-background-rgb-color:255, 255, 255; --liff-base-text-rgb-color:0, 0, 0; --liff-light-button-border-color:rgba(0, 0, 0, 0.15); --liff-title-text-color:#111111; --liff-title-background-color:#FFFFFF; --liff-title-button-color:#111111; --liff-icon-color:#111111; --liff-status-bar-color:black; --liff-title-subtext-color:#B7B7B7; --liff-progress-bar-color:#06C755; --liff-progress-background-color:#FFFFFF; --liff-title-button-area-background-color:rgba(255, 255, 255, 0.12); --liff-title-button-area-border-color:rgba(0, 0, 0, 0.15);"><head>
+<html lang="en" style="color-scheme: light; --liff-base-background-color:#f50606; --liff-base-text-color:#000000; --liff-base-background-rgb-color:255, 255, 255; --liff-base-text-rgb-color:0, 0, 0; --liff-light-button-border-color:rgba(0, 0, 0, 0.15); --liff-title-text-color:#111111; --liff-title-background-color:#FFFFFF; --liff-title-button-color:#111111; --liff-icon-color:#111111; --liff-status-bar-color:black; --liff-title-subtext-color:#B7B7B7; --liff-progress-bar-color:#06C755; --liff-progress-background-color:#FFFFFF; --liff-title-button-area-background-color:rgba(255, 255, 255, 0.12); --liff-title-button-area-border-color:rgba(0, 0, 0, 0.15);"><head>
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>รับเครดิตฟรีฟรี 50 !!!</title>
+  <title>สมัครเล่นครั้งแรกรับฟรี</title>
   <meta property="og:locale" content="th_TH">
   <meta property="og:type" content="game mobile">
 
@@ -33,9 +33,9 @@
           <!--ส่วนรูปโปรโมชั่น และ ลิ้งออกจากรูปภาพ-->
           <img src="https://www.img.in.th/images/57fac75947cbeb97eec1830d9ab933ec.jpg" class="img-fluid" style="width: 450px;border-radius: 15px;">
           
-          <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">กดรับได้เลย </p>
+          <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">รับเครดิตฟรี 50.-</p>
           <div class="d-grid gap-2 col-10 mx-auto">
-            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">เเชร์เลย</button>
+            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">แชร์</button>
           </div>
         </div>
       </div>
@@ -52,64 +52,57 @@
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "โค้ดรับเครดิตฟรี 50 บาท",
+        "altText": "คุณได้รับเครดิตฟรี รีบเลยก่อนหมดเขต",
     "type": "flex",
     "contents": {
       "type": "bubble",
+  "size": "giga",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "https://www.img.in.th/images/8a78c1f8c23762268ea1413ee0ae9a56.jpg",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "fit"
+  },
   "body": {
     "type": "box",
     "layout": "vertical",
     "backgroundColor": "#FFFFFFFF",
+    "borderColor": "#FFFFFFFF",
     "contents": [
       {
         "type": "text",
-        "text": "คุณสนใจรับเครดิตฟรี 50 ใช่ไหมคะ",
-        "size": "md",
-        "color": "#9A00CAFF",
+        "text": "กิจกรรมรับเครดิตฟรี ",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#9F00FFFF",
         "align": "center",
         "contents": []
       },
       {
-        "type": "button",
-        "action": {
-          "type": "message",
-          "label": "รับเครดิตฟรี",
-          "text": "สนใจ"
-        },
-        "color": "#9A00CAFF",
-        "style": "primary",
-        "gravity": "center",
-        "offsetTop": "sm"
+        "type": "text",
+        "text": "เพียงร่วมกิจกรรมกับทางเรา รับทันทีเครดิตฟรี 50.- ไม่ต้องฝากก่อน",
+        "color": "#52514DFF",
+        "align": "center",
+        "contents": []
       }
     ]
   },
   "footer": {
     "type": "box",
     "layout": "horizontal",
-    "offsetBottom": "sm",
     "backgroundColor": "#FFFFFFFF",
     "contents": [
       {
         "type": "button",
         "action": {
-          "type": "message",
-          "label": "ไม่สนใจ",
-          "text": "ไม่สนใจ"
+          "type": "uri",
+          "label": "รับเครดิตฟรี",
+          "uri": "https://lin.ee/qWr8AhW"
         },
-        "color": "#9A00CAFF",
-        "style": "primary",
-        "offsetEnd": "xs"
-      },
-      {
-        "type": "button",
-        "action": {
-          "type": "message",
-          "label": "ฝากเงิน",
-          "text": "ฝากเงิน"
-        },
-        "color": "#9A00CAFF",
-        "style": "primary",
-        "offsetStart": "xs"
+        "color": "#9F00FFFF",
+        "style": "primary"
       }
     ]
   }
